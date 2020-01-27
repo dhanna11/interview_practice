@@ -1,0 +1,5 @@
+Make sure drawn diagrams reflect that array's are laid out in row-major order in c.
+Started origin at middle of array for some reason. Started layer at 1. Probably because I was trying to remember the CTCI solution causing mistakes.
+Cleaner solution to start at the origin.
+Consider trade offs of doing "outside in" vs "inside out". Outside in can avoid a case of the array being size one.
+Redo latter

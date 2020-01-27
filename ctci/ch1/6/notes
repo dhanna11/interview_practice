@@ -1,0 +1,9 @@
+Forgot that size differences between int and char: Tried to do *char_ptr = integer type.
+sprintf is useful.
+
+Forgot the goal of the problem was to compress the string. Returned buffer of the same size of the string!
+Forgot to free memory on early return.
+
+Fixed problem by using large temp buffer, strcpy, and then freeing.
+
+Could have written unbounded array in c

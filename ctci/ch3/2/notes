@@ -1,0 +1,5 @@
+I've been forgetting to set terminating pointers to NULL. I was relying on malloc returning zero'd out memory, when contents are really undefined.
+
+Didn't fully explore the second option to use a second stack. Would've seen more space efficient solution instead of storing min at every node. Pretty sure when I first did this back in November, I came up with the more efficient solution.
+
+Still O(N) but we redudantly stored min values. That's either (Unneccessary work ) or (Duplicate work)in BUD.

@@ -1,0 +1,15 @@
+Could save some space by being intelligent with values.
+Instead of doing if (!L0 && !L0)
+	    	 else if (!L0 && L1)
+		 else if (L0 && !L1)
+		 else
+
+You can often do
+    If (!L0)
+       value += L0->data
+    If (L1)
+       value += L1-data
+
+Look at values being updated in each case to compress code a bit
+       
+       
